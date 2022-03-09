@@ -5,8 +5,7 @@ Challenge 01 - Find runner up
 '''
 n = int(input())
 arr = map(int, input().split())
-tempList = set(arr)
+tempList = set(arr) # removing duplicates
 maxNum = max(tempList)
 tempList.remove(maxNum)
-maxNum2 = max(tempList)
-print(maxNum2)
+print(max(tempList))
