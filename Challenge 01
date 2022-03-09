@@ -1,0 +1,12 @@
+'''
+Challenge 01 - Find runner up
+2<=n<=10
+-100<=A[n]<=100
+'''
+n = int(input())
+arr = map(int, input().split())
+tempList = set(arr)
+maxNum = max(tempList)
+tempList.remove(maxNum)
+maxNum2 = max(tempList)
+print(maxNum2)
