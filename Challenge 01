@@ -1,5 +1,5 @@
 '''
-Challenge 01 - Find runner up
+Challenge 01 - Find runner up aka second largest number
 2<=n<=10
 -100<=A[n]<=100
 '''
